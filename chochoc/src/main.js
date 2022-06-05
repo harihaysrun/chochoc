@@ -3,19 +3,13 @@ import App from './App.vue'
 import * as VueRouter from "vue-router";
 
 import Home from "@/views/Home";
-import Contact from "@/views/Contact";
 
 const routes = [
     {
       path: "/",
       name: 'LandingPage',
       component: Home
-    },
-    {
-      path: "/contact",
-      name: 'ContactPage',
-      component: Contact
-    },
+    }
 
 ];
   

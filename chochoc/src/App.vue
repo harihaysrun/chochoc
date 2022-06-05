@@ -195,11 +195,12 @@ a:hover{
 nav{
   background-color:transparent;
   padding:10px 0;
-  /* position:sticky; */
+  position:relative;
   /* top:0; */
   /* position:absolute; */
   /* width:100%; */
   color:white;
+  z-index:2;
 }
 
 nav a{
