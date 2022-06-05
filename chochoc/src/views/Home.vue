@@ -363,7 +363,8 @@ h1{
 }
 
 .collection:hover img{
-  filter: grayscale(50%) !important;
+  /* filter: grayscale(50%) !important; */
+  opacity:0.7;
 }
 
 }
