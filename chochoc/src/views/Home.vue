@@ -67,51 +67,87 @@
       </div>
     </div>
 
-    <div class="bestsellers-collections pt-5">
+    <div class="bestsellers-collections pt-5 pb-5">
       <div class="container">
-        <h2>Bestsellers</h2>
-        <div class="bestsellers-container pt-3">
-          <div class="col-10 col-md-6 col-lg-4 me-3">
-            <div class="d-flex flex-column">
-              <img src="../assets/images/1.png">
-              <div class="text pt-2">
-                Lovers in Paris
-                <br>
-                $55
+
+        <div class="bestsellers pt-5 pb-5">
+          <h2>Bestsellers</h2>
+          <div class="bestsellers-container pt-3">
+            <div class="col-10 col-md-6 col-lg-4 me-3">
+              <div class="d-flex flex-column">
+                <img src="../assets/images/1.png">
+                <div class="text pt-2">
+                  Lovers in Paris
+                  <br>
+                  $55
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-10 col-md-6 col-lg-4 me-3">
-            <div class="d-flex flex-column">
-              <img src="../assets/images/2.png">
-              <div class="text pt-2">
-                Lovers in Paris
-                <br>
-                $55
+            <div class="col-10 col-md-6 col-lg-4 me-3">
+              <div class="d-flex flex-column">
+                <img src="../assets/images/2.png">
+                <div class="text pt-2">
+                  Lovers in Paris
+                  <br>
+                  $55
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-10 col-md-6 col-lg-4 me-3">
-            <div class="d-flex flex-column">
-              <img src="../assets/images/3.png">
-              <div class="text pt-2">
-                Lovers in Paris
-                <br>
-                $55
+            <div class="col-10 col-md-6 col-lg-4 me-3">
+              <div class="d-flex flex-column">
+                <img src="../assets/images/3.png">
+                <div class="text pt-2">
+                  Lovers in Paris
+                  <br>
+                  $55
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-10 col-md-6 col-lg-4 me-3">
-            <div class="d-flex flex-column">
-              <img src="../assets/images/4.png">
-              <div class="text pt-2">
-                Lovers in Paris
-                <br>
-                $55
+            <div class="col-10 col-md-6 col-lg-4 me-3">
+              <div class="d-flex flex-column">
+                <img src="../assets/images/4.png">
+                <div class="text pt-2">
+                  Lovers in Paris
+                  <br>
+                  $55
+                </div>
               </div>
             </div>
           </div>
         </div>
+
+        <div class="collections pt-5">
+
+          <div class="main-text text-center">
+            <h2>Our Collections</h2>
+            <p>Be it for a party, self-celebration or bite-sized convenience to have on-the-go, we have a cake for every ocassion. Browse our collections now.</p>
+          </div>
+
+          <div class="collections-box row d-flex flex-column flex-md-row pt-3 pt-md-5">
+            <div class="pb-3 pb-md-0 col-12 col-md-6 collection position-relative">
+                <img src="../assets/images/c1-mobile.png" class="d-block d-md-none">
+                <img src="../assets/images/c1.png" class="d-none d-md-block">
+                <div class="shop-btn position-absolute top-50 start-50 translate-middle">
+                  <h2>Whole cakes</h2>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 other-collections d-flex flex-column">
+              <div class="collection pb-3 pb-md-0 position-relative">
+                <img src="../assets/images/c2.png">
+                <div class="shop-btn position-absolute top-50 start-50 translate-middle">
+                  <h2>Bento cakes</h2>
+                </div>
+              </div>
+              <div class="collection mt-auto position-relative">
+                <img src="../assets/images/c3.png">
+                <div class="shop-btn position-absolute top-50 start-50 translate-middle">
+                  <h2>Cupcakes</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   
@@ -275,8 +311,21 @@ h1{
   display:inline-block;
 }
 
-.bestsellers-container img{
+.bestsellers-container img, .collections img{
   width:100%;
+}
+
+.shop-btn{
+  /* width:150px; */
+  /* height:150px; */
+  /* padding:10px 15px; */
+  /* border-radius:10px; */
+  /* background-color:white; */
+  color:white;
+  text-shadow: 0px 0px 20px black;
+  /* display:flex; */
+  /* align-items:center; */
+  /* justify-content: center; */
 }
 
 @media only screen and (min-width:768px){
@@ -299,6 +348,24 @@ h1{
   width:50px;
 }
 
+.collections p{
+  width:70%;
+  margin:auto;
+}
+
+.shop-btn{
+  opacity:0;
+  transition: all 0.1s ease-in;
+}
+
+.collection:hover .shop-btn{
+  opacity:1;
+}
+
+.collection:hover img{
+  filter: grayscale(50%) !important;
+}
+
 }
 
 @media only screen and (min-width:1200px){
@@ -317,6 +384,11 @@ h1{
 
 .header h1{
   max-width:85%;
+}
+
+.collections p{
+  width:50%;
+  margin:auto;
 }
 
 }
