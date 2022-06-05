@@ -150,6 +150,46 @@
 
       </div>
     </div>
+
+
+    <div class="testimonials">
+      <div class="container">
+
+        <div class="testimonials-box pt-5 pb-5">
+          <h2>See What Our Customers Say</h2>
+          <div class="bestsellers-container pt-4">
+            <div class="col-10 col-md-6 col-lg-4 me-3 text-wrap one-testimonial">
+              Cras quis ipsum et urna gravida aliquam. Nullam nec magna magna. Vestibulum tincidunt tortor nec odio venenatis luctus. Etiam porta, tellus id consequat pretium, mauris ante feugiat orci, at volutpat risus magna id ipsum. Nullam posuere efficitur sapien, in eleifend dui dapibus ac!
+              <div class="pt-3 d-flex flex-row align-items-center">
+                <img class="me-2" src="../assets/images/testi.png">
+                <span>Naimah</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 col-lg-4 me-3 text-wrap one-testimonial">
+              Cras quis ipsum et urna gravida aliquam. Nullam nec magna magna. Vestibulum tincidunt tortor nec odio venenatis luctus. Etiam porta, tellus id consequat pretium, mauris ante feugiat orci, at volutpat risus magna id ipsum. Nullam posuere efficitur sapien, in eleifend dui dapibus ac!
+              <div class="pt-3 d-flex flex-row align-items-center">
+                <img class="me-2" src="../assets/images/testi.png">
+                <span>Naimah</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 col-lg-4 me-3 text-wrap one-testimonial">
+              Cras quis ipsum et urna gravida aliquam. Nullam nec magna magna. Vestibulum tincidunt tortor nec odio venenatis luctus. Etiam porta, tellus id consequat pretium, mauris ante feugiat orci, at volutpat risus magna id ipsum. Nullam posuere efficitur sapien, in eleifend dui dapibus ac!
+              <div class="pt-3 d-flex flex-row align-items-center">
+                <img class="me-2" src="../assets/images/testi.png">
+                <span>Naimah</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 col-lg-4 me-3 text-wrap one-testimonial">
+              Cras quis ipsum et urna gravida aliquam. Nullam nec magna magna. Vestibulum tincidunt tortor nec odio venenatis luctus. Etiam porta, tellus id consequat pretium, mauris ante feugiat orci, at volutpat risus magna id ipsum. Nullam posuere efficitur sapien, in eleifend dui dapibus ac!
+              <div class="pt-3 d-flex flex-row align-items-center">
+                <img class="me-2" src="../assets/images/testi.png">
+                <span>Naimah</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   
   </div>
 </template>
@@ -251,6 +291,10 @@ h1{
   /* color:black; */
 }
 
+.testimonials{
+  background-color:#FFF9EC;
+}
+
 .main-points img{
   width:35px;
   margin:15px 0 10px 0;
@@ -326,6 +370,19 @@ h1{
   /* display:flex; */
   /* align-items:center; */
   /* justify-content: center; */
+}
+
+.one-testimonial{
+  background-color:white;
+  box-sizing: border-box;
+  padding:75px 30px 30px 30px;
+  /* padding-top:75px; */
+  border-radius:15px;
+  background:url(../assets/images/testi2.png) no-repeat white 30px 30px;
+}
+
+.one-testimonial img{
+  width:40px;
 }
 
 @media only screen and (min-width:768px){
