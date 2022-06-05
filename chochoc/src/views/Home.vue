@@ -2,12 +2,13 @@
   <div>
     
     <div class="hero-banner position-relative">
-      <img src="../assets/images/banner.png" alt="">
+      <img class="d-block d-md-none" src="../assets/images/banner-mobile2.png">
+      <img class="d-none d-md-block" src="../assets/images/banner.png">
       <div class="position-absolute header">
         <div class="container">
           <div class="inner-container">
-            <h1>We bake deliciously healthy chocolate cakes</h1>
-            <p>A boutique confectionary bringing healthy options for everyone to enjoy some chocolatey goodness.</p>
+            <h1>We bake deliciously<br>healthy chocolate cakes</h1>
+            <p class="m-0" >A boutique confectionary bringing healthy options for everyone to enjoy some chocolatey goodness.</p>
           </div>
         </div>
       </div>
@@ -203,7 +204,7 @@
       </div>
     </div>
 
-    <div class="bestsellers-collections py-5">
+    <div class="bestsellers-collections ig-feed py-5">
       <div class="container">
 
         <div class="bestsellers py-5">
@@ -268,21 +269,22 @@ export default {
 <style scoped>
 
 .hero-banner{
-  margin-top:-55px;
+  margin-top:-60px;
   pointer-events:none;
+  background-color:#FFF9EC;
 }
 
 .hero-banner img{
   width:100%;
   position:relative;
-  z-index:-2;
-  background-color:#FFF9EC;
+  z-index:0;
+  border-radius: 0 0 50px 0;
 }
 
 .header{
   /* background-color:pink; */
   width:100%;
-  top:90%;
+  top:80%;
   color:black;
   pointer-events:all;
 }
@@ -321,13 +323,13 @@ h1, h2, h3, h4, h5{
   font-weight: 900;
 }
 
-h1{
+/* h1{
   font-size:35px;
-}
+} */
 
 .main-points{
   background-color:#FFF9EC;
-  padding-top: 200px;
+  padding-top: 130px;
   padding-bottom:50px;
   /* color:black; */
 }
@@ -380,6 +382,22 @@ h1{
   width:100%;
   height:100%;
   background-color:#FFF9EC;
+  z-index:-1;
+}
+
+.ig-feed{
+  position:relative;
+}
+
+.ig-feed::before{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  border-top:20vw solid #FFF9EC;
+  border-bottom:20vw solid black;
   z-index:-1;
 }
 
@@ -448,7 +466,7 @@ h1{
 @media only screen and (min-width:768px){
 
 .header{
-  top:70%;
+  top:75%;
 }
 
 .inner-container{
@@ -458,7 +476,7 @@ h1{
 
 .main-points{
   background-color:#FFF9EC;
-  padding-top: 150px;
+  padding-top: 170px;
 }
 
 .main-points img{
@@ -484,12 +502,16 @@ h1{
   opacity:0.7;
 }
 
+h1{
+  font-size:35px;
+}
+
 }
 
 @media only screen and (min-width:1200px){
 
 .header{
-  top:75%;
+  top:80%;
 }
 
 .inner-container{

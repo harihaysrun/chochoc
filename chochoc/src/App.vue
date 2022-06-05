@@ -10,10 +10,14 @@
               <i class="bi bi-list" v-if="!showHmMenu"></i>
               <i class="bi bi-x-lg" v-else></i>
             </div>
-            <router-link to="/" class="logo m-auto">chochoc</router-link>
+            <router-link to="/" class="logo m-auto">
+              <img class="logo" src="./assets/images/logo.png">
+            </router-link>
           </div>
-          <div class="d-none d-md-flex flex-row">
-            <router-link to="/" class="logo pe-5">chochoc</router-link>
+          <div class="d-none d-md-flex flex-row align-items-center">
+            <router-link to="/" class="logo me-5">
+              <img class="logo" src="./assets/images/logo.png">
+            </router-link>
             <div>
               <router-link to="/about" class="pe-4" href="">About</router-link>
               <a class="pe-4" href="">Catalog</a>
@@ -184,6 +188,8 @@ a:hover{
   font-weight:500;
   text-transform: uppercase;
   text-align: center;
+  position:relative;
+  z-index:2; 
 }
 
 nav{
@@ -198,6 +204,10 @@ nav{
 
 nav a{
   color:white;
+}
+
+.logo{
+  width:75px;
 }
 
 #hamburger-menu {
