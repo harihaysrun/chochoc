@@ -66,6 +66,54 @@
 
       </div>
     </div>
+
+    <div class="bestsellers-collections pt-5">
+      <div class="container">
+        <h2>Bestsellers</h2>
+        <div class="bestsellers-container pt-3">
+          <div class="col-10 col-md-6 col-lg-4 me-3">
+            <div class="d-flex flex-column">
+              <img src="../assets/images/1.png">
+              <div class="text pt-2">
+                Lovers in Paris
+                <br>
+                $55
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-6 col-lg-4 me-3">
+            <div class="d-flex flex-column">
+              <img src="../assets/images/2.png">
+              <div class="text pt-2">
+                Lovers in Paris
+                <br>
+                $55
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-6 col-lg-4 me-3">
+            <div class="d-flex flex-column">
+              <img src="../assets/images/3.png">
+              <div class="text pt-2">
+                Lovers in Paris
+                <br>
+                $55
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-6 col-lg-4 me-3">
+            <div class="d-flex flex-column">
+              <img src="../assets/images/4.png">
+              <div class="text pt-2">
+                Lovers in Paris
+                <br>
+                $55
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   
   </div>
 </template>
@@ -135,7 +183,6 @@ export default {
   position:relative;
 }
 
-
 .inner-container::before{
   content:'';
   position:absolute;
@@ -165,7 +212,7 @@ h1{
   background-color:#FFF9EC;
   padding-top: 200px;
   padding-bottom:50px;
-  color:black;
+  /* color:black; */
 }
 
 .main-points img{
@@ -196,6 +243,40 @@ h1{
 
 .inactive-point{
   opacity:0.5;
+}
+
+.bestsellers-collections{
+  background-color:white;
+  border-radius:50px 0;
+  position:relative;
+}
+
+.bestsellers-collections::before{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:#FFF9EC;
+  z-index:-1;
+}
+
+.bestsellers-container{
+  white-space: nowrap;
+  overflow-x:scroll;
+}
+
+.bestsellers-container::-webkit-scrollbar { 
+    display: none;
+}
+
+.bestsellers-container div{
+  display:inline-block;
+}
+
+.bestsellers-container img{
+  width:100%;
 }
 
 @media only screen and (min-width:768px){

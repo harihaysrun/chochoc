@@ -130,15 +130,13 @@ body, html{
   margin:0;
   padding:0;
   overflow-x:hidden;
-  color:black !important;
 }
 
 #app {
   font-family: 'Barlow', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-  height:200vh;
+  color:black;
 }
 
 .freeshipping{
