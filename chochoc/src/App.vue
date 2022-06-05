@@ -71,6 +71,35 @@
         </div>
       </div>
     </Transition>
+
+    <footer class="py-5 text-center">
+      <div class="container d-flex flex-column align-items-center align-items-lg-start">
+        <img src="./assets/images/logo.png">
+        <div class="links pt-4 d-flex flex-column flex-lg-row w-100">
+          <div class="d-flex flex-column flex-lg-row">
+            <a class="py-2 py-lg-0 pe-lg-4" href="">About</a>
+            <a class="py-2 py-lg-0 pe-lg-4" href="">Catalog</a>
+            <a class="py-2 py-lg-0 pe-lg-4" href="">FAQ</a>
+            <a class="py-2 py-lg-0 pe-lg-4" href="">Delivery</a>
+            <a class="py-2 py-lg-0 pe-lg-4" href="">Contact</a>
+          </div>
+          <div class="d-flex flex-row justify-content-center ms-lg-auto py-5 pt-lg-0">
+            <img class="px-3" src="./assets/images/f1.png">
+            <img class="px-3" src="./assets/images/f2.png">
+            <img class="px-3" src="./assets/images/f3.png">
+            <img class="px-3" src="./assets/images/f4.png">
+          </div>
+        </div>
+      </div>
+      <div class="c-payment pb-4 w-100">
+        <div class="container d-flex flex-column flex-md-row px-0 pt-3">
+          <div class=" ms-md-auto order-0 order-md-1">
+            <img src="./assets/images/payment-methods.png">
+          </div>
+          <div class=" me-md-auto pt-3 pt-md-0">© CHOCHOC 2022</div>
+        </div>
+      </div>
+    </footer>
     
   </div>
 </template>
@@ -132,6 +161,15 @@ body, html{
   overflow-x:hidden;
 }
 
+a{
+  text-decoration:none;
+  color:white;
+}
+
+a:hover{
+  color:#FFF9EC;
+}
+
 #app {
   font-family: 'Barlow', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -164,7 +202,7 @@ nav a{
 
 #hamburger-menu {
   background-color:white;
-  position:absolute;
+  position:fixed;
   top:0;
   width:75vw;
   height:100vh;
@@ -222,6 +260,28 @@ nav a{
 .accordion-button, .accordion-item, .accordion-body{
   background-color:transparent !important;
   padding:0;
+}
+
+footer{
+  background-color:black;
+  color:white;
+}
+
+footer img{
+  width:100px;
+}
+
+footer .links img{
+  height:20px;
+  width:auto;
+}
+
+.c-payment .container{
+  border-top:1px solid rgba(255,255,255,0.1);
+}
+
+.c-payment img{
+  width:200px;
 }
 
 @media only screen and (min-width:768px){
