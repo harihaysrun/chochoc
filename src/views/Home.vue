@@ -269,7 +269,7 @@ export default {
 <style scoped>
 
 .hero-banner{
-  margin-top:-60px;
+  margin-top:-65px;
   pointer-events:none;
   background-color:#FFF9EC;
 }

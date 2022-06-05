@@ -2,7 +2,7 @@
   <div>
 
     <div id="content">
-      <div class="freeshipping">🚚 Free delivery for orders above SGD50 🎂</div>
+      <marquee class="freeshipping">🚚 Free delivery for orders above SGD50 🎂</marquee>
       <nav>
         <div class="container">
           <div class="d-flex d-md-none">
