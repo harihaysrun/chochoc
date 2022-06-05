@@ -67,10 +67,10 @@
       </div>
     </div>
 
-    <div class="bestsellers-collections pt-5 pb-5">
+    <div class="bestsellers-collections py-5">
       <div class="container">
 
-        <div class="bestsellers pt-5 pb-5">
+        <div class="bestsellers py-5">
           <h2>Bestsellers</h2>
           <div class="bestsellers-container pt-3">
             <div class="col-10 col-md-6 col-lg-4 me-3">
@@ -116,7 +116,7 @@
           </div>
         </div>
 
-        <div class="collections pt-5">
+        <div class="collections py-5">
 
           <div class="main-text text-center">
             <h2>Our Collections</h2>
@@ -152,10 +152,9 @@
     </div>
 
 
-    <div class="testimonials">
+    <div class="testimonials py-5">
       <div class="container">
-
-        <div class="testimonials-box pt-5 pb-5">
+        <div class="testimonials-box py-5">
           <h2>See What Our Customers Say</h2>
           <div class="bestsellers-container pt-4">
             <div class="col-10 col-md-6 col-lg-4 me-3 text-wrap one-testimonial">
@@ -188,6 +187,35 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="bestsellers-collections py-5">
+      <div class="container">
+
+        <div class="bestsellers py-5">
+          <div class="row">
+            <div class="col-12 col-lg-4 order-0 order-lg-1 ps-lg-4">
+              <h2>#chochocsg</h2>
+              Share your photos on Instagram with the hashtag #chochocsg to be featured on our website! We love to see you enjoy our cakes!
+              <button class="ig-btn d-none d-lg-block mt-3">View all posts</button>
+            </div>
+            <div class="col-12 col-lg-8 py-4 p-lg-0">
+              <img class="col-6 col-md-3 p-1" src="../assets/images/ig-photo.png">
+              <img class="col-6 col-md-3 p-1" src="../assets/images/ig-photo.png">
+              <img class="col-6 col-md-3 p-1" src="../assets/images/ig-photo.png">
+              <img class="col-6 col-md-3 p-1" src="../assets/images/ig-photo.png">
+              <img class="col-6 col-md-3 p-1" src="../assets/images/ig-photo.png">
+              <img class="col-6 col-md-3 p-1" src="../assets/images/ig-photo.png">
+              <img class="col-6 col-md-3 p-1" src="../assets/images/ig-photo.png">
+              <img class="col-6 col-md-3 p-1" src="../assets/images/ig-photo.png">
+            </div>
+            <div class="col-12 d-block d-lg-none">
+              <button class="ig-btn">View all posts</button>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   
@@ -383,6 +411,20 @@ h1{
 
 .one-testimonial img{
   width:40px;
+}
+
+.ig-btn{
+  border:1px solid black;
+  border-left:10px solid black;
+  padding:15px 25px;
+  width:100%;
+  background-color:white;
+  transition: all 0.05s ease-in;
+}
+
+.ig-btn:hover{
+  background-color:black;
+  color:white;
 }
 
 @media only screen and (min-width:768px){
