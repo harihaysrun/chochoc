@@ -71,9 +71,12 @@
       <div class="container">
 
         <div class="bestsellers py-5">
-          <h2>Bestsellers</h2>
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>Bestsellers</h2>
+            <img class="arrows" src="../assets/images/arrows.png">
+          </div>
           <div class="bestsellers-container pt-3">
-            <div class="col-10 col-md-6 col-lg-4 me-3">
+            <div class="col-10 col-md-6 col-lg-4 pe-3">
               <div class="d-flex flex-column">
                 <img src="../assets/images/1.png">
                 <div class="text pt-2">
@@ -83,7 +86,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-10 col-md-6 col-lg-4 me-3">
+            <div class="col-10 col-md-6 col-lg-4 pe-3">
               <div class="d-flex flex-column">
                 <img src="../assets/images/2.png">
                 <div class="text pt-2">
@@ -93,7 +96,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-10 col-md-6 col-lg-4 me-3">
+            <div class="col-10 col-md-6 col-lg-4 pe-3">
               <div class="d-flex flex-column">
                 <img src="../assets/images/3.png">
                 <div class="text pt-2">
@@ -103,7 +106,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-10 col-md-6 col-lg-4 me-3">
+            <div class="col-10 col-md-6 col-lg-4 pe-3">
               <div class="d-flex flex-column">
                 <img src="../assets/images/4.png">
                 <div class="text pt-2">
@@ -151,38 +154,48 @@
       </div>
     </div>
 
-
     <div class="testimonials py-5">
       <div class="container">
         <div class="testimonials-box py-5">
-          <h2>See What Our Customers Say</h2>
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>See What Our Customers Say</h2>
+            <img class="arrows" src="../assets/images/arrows.png">
+          </div>
           <div class="bestsellers-container pt-4">
-            <div class="col-10 col-md-6 col-lg-4 me-3 text-wrap one-testimonial">
-              Cras quis ipsum et urna gravida aliquam. Nullam nec magna magna. Vestibulum tincidunt tortor nec odio venenatis luctus. Etiam porta, tellus id consequat pretium, mauris ante feugiat orci, at volutpat risus magna id ipsum. Nullam posuere efficitur sapien, in eleifend dui dapibus ac!
-              <div class="pt-3 d-flex flex-row align-items-center">
-                <img class="me-2" src="../assets/images/testi.png">
-                <span>Naimah</span>
+            <div class="col-10 col-md-6 col-lg-4 pe-3">
+              <div class="text-wrap one-testimonial">
+                Cras quis ipsum et urna gravida aliquam. Nullam nec magna magna. Vestibulum tincidunt tortor nec odio venenatis luctus. Etiam porta, tellus id consequat pretium, mauris ante feugiat orci, at volutpat risus magna id ipsum. Nullam posuere efficitur sapien, in eleifend dui dapibus ac!
+                <div class="pt-3 d-flex flex-row align-items-center">
+                  <img class="me-2" src="../assets/images/testi.png">
+                  <span>Naimah</span>
+                </div>
               </div>
             </div>
-            <div class="col-10 col-md-6 col-lg-4 me-3 text-wrap one-testimonial">
-              Cras quis ipsum et urna gravida aliquam. Nullam nec magna magna. Vestibulum tincidunt tortor nec odio venenatis luctus. Etiam porta, tellus id consequat pretium, mauris ante feugiat orci, at volutpat risus magna id ipsum. Nullam posuere efficitur sapien, in eleifend dui dapibus ac!
-              <div class="pt-3 d-flex flex-row align-items-center">
-                <img class="me-2" src="../assets/images/testi.png">
-                <span>Naimah</span>
+            <div class="col-10 col-md-6 col-lg-4 pe-3">
+              <div class="text-wrap one-testimonial">
+                Cras quis ipsum et urna gravida aliquam. Nullam nec magna magna. Vestibulum tincidunt tortor nec odio venenatis luctus. Etiam porta, tellus id consequat pretium, mauris ante feugiat orci, at volutpat risus magna id ipsum. Nullam posuere efficitur sapien, in eleifend dui dapibus ac!
+                <div class="pt-3 d-flex flex-row align-items-center">
+                  <img class="me-2" src="../assets/images/testi.png">
+                  <span>Naimah</span>
+                </div>
               </div>
             </div>
-            <div class="col-10 col-md-6 col-lg-4 me-3 text-wrap one-testimonial">
-              Cras quis ipsum et urna gravida aliquam. Nullam nec magna magna. Vestibulum tincidunt tortor nec odio venenatis luctus. Etiam porta, tellus id consequat pretium, mauris ante feugiat orci, at volutpat risus magna id ipsum. Nullam posuere efficitur sapien, in eleifend dui dapibus ac!
-              <div class="pt-3 d-flex flex-row align-items-center">
-                <img class="me-2" src="../assets/images/testi.png">
-                <span>Naimah</span>
+            <div class="col-10 col-md-6 col-lg-4 pe-3">
+              <div class="text-wrap one-testimonial">
+                Cras quis ipsum et urna gravida aliquam. Nullam nec magna magna. Vestibulum tincidunt tortor nec odio venenatis luctus. Etiam porta, tellus id consequat pretium, mauris ante feugiat orci, at volutpat risus magna id ipsum. Nullam posuere efficitur sapien, in eleifend dui dapibus ac!
+                <div class="pt-3 d-flex flex-row align-items-center">
+                  <img class="me-2" src="../assets/images/testi.png">
+                  <span>Naimah</span>
+                </div>
               </div>
             </div>
-            <div class="col-10 col-md-6 col-lg-4 me-3 text-wrap one-testimonial">
-              Cras quis ipsum et urna gravida aliquam. Nullam nec magna magna. Vestibulum tincidunt tortor nec odio venenatis luctus. Etiam porta, tellus id consequat pretium, mauris ante feugiat orci, at volutpat risus magna id ipsum. Nullam posuere efficitur sapien, in eleifend dui dapibus ac!
-              <div class="pt-3 d-flex flex-row align-items-center">
-                <img class="me-2" src="../assets/images/testi.png">
-                <span>Naimah</span>
+            <div class="col-10 col-md-6 col-lg-4 pe-3">
+              <div class="text-wrap one-testimonial">
+                Cras quis ipsum et urna gravida aliquam. Nullam nec magna magna. Vestibulum tincidunt tortor nec odio venenatis luctus. Etiam porta, tellus id consequat pretium, mauris ante feugiat orci, at volutpat risus magna id ipsum. Nullam posuere efficitur sapien, in eleifend dui dapibus ac!
+                <div class="pt-3 d-flex flex-row align-items-center">
+                  <img class="me-2" src="../assets/images/testi.png">
+                  <span>Naimah</span>
+                </div>
               </div>
             </div>
           </div>
@@ -425,6 +438,11 @@ h1{
 .ig-btn:hover{
   background-color:black;
   color:white;
+}
+
+.arrows{
+  height:20px;
+  width:auto;
 }
 
 @media only screen and (min-width:768px){
