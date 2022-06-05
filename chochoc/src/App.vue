@@ -10,14 +10,14 @@
               <i class="bi bi-list" v-if="!showHmMenu"></i>
               <i class="bi bi-x-lg" v-else></i>
             </div>
-            <div class="logo m-auto">chochoc</div>
+            <router-link to="/" class="logo m-auto">chochoc</router-link>
           </div>
           <div class="d-none d-md-flex flex-row">
-            <div class="logo pe-5">chochoc</div>
+            <router-link to="/" class="logo pe-5">chochoc</router-link>
             <div>
-              <a class="pe-4" href="">About</a>
+              <router-link to="/about" class="pe-4" href="">About</router-link>
               <a class="pe-4" href="">Catalog</a>
-              <a class="pe-4" href="">Contact</a>
+              <router-link to="/contact" class="pe-4" href="">Contact</router-link>
             </div>
             <div class="ms-auto">
               <i class="bi bi-person ps-4"></i>
@@ -26,12 +26,15 @@
           </div>
         </div>
       </nav>
+
+      <router-view></router-view>
     </div>
 
+    <!-- hamburger menu -->
     <Transition>
       <div id="hamburger-menu" v-if="showHmMenu">
         <div class="first-three d-flex flex-column">
-          <div class="pb-3">About</div>
+          <router-link to="/about" class="pb-3">About</router-link>
           <div class="pb-3">
             <div class="d-flex" @click="openCatalog">
               Catalog
@@ -60,7 +63,7 @@
               </div>
             </div>
           </div> -->
-          <div>Contact</div>
+          <router-link to="/contact">Contact</router-link>
         </div>
         <div class="next-two">
           <div class="pb-3"><i class="bi bi-person pe-2"></i> Sign In</div>
@@ -123,10 +126,11 @@ export default {
 
 <style>
 
-body{
+body, html{
   margin:0;
   padding:0;
   overflow-x:hidden;
+  color:black !important;
 }
 
 #app {
@@ -134,6 +138,7 @@ body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+  height:200vh;
 }
 
 .freeshipping{
@@ -146,8 +151,17 @@ body{
 }
 
 nav{
-  background-color:pink;
+  background-color:transparent;
   padding:10px 0;
+  /* position:sticky; */
+  /* top:0; */
+  /* position:absolute; */
+  /* width:100%; */
+  color:white;
+}
+
+nav a{
+  color:white;
 }
 
 #hamburger-menu {
@@ -224,7 +238,7 @@ nav{
   #content{
     transform: translateX(0px) !important;
   }
-  
+
 }
 
 </style>
