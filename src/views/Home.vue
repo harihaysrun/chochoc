@@ -6,7 +6,7 @@
       <img class="d-none d-md-block" src="../assets/images/banner.png">
       <div class="position-absolute header">
         <div class="container">
-          <div class="inner-container">
+          <div class="inner-container col-12 col-md-8 col-lg-6">
             <h1>We bake deliciously<br>healthy chocolate cakes</h1>
             <p class="m-0" >A boutique confectionary that provides healthy options <br class="d-none d-lg-block">so everyone can enjoy some chocolatey goodness.</p>
           </div>
@@ -318,7 +318,7 @@ export default {
 
 .inner-container{
   background-color:white;
-  width:100%;
+  /* width:100%; */
   box-sizing: border-box;
   padding:25px;
   border-radius: 0 50px 50px 0;
@@ -481,6 +481,7 @@ h1, h2, h3, h4, h5{
   /* padding-top:75px; */
   border-radius:15px;
   background:url(../assets/images/testi2.png) no-repeat white 30px 30px;
+  background-size:45px;
 }
 
 .one-testimonial img{
@@ -530,7 +531,6 @@ h1, h2, h3, h4, h5{
 }
 
 .inner-container{
-  width:70%;
   padding:25px 0;
 }
 
@@ -581,10 +581,6 @@ h1{
 
 .header{
   top:80%;
-}
-
-.inner-container{
-  width:60%;
 }
 
 h1{
