@@ -132,20 +132,20 @@
                 <img src="../assets/images/c1-mobile.png" class="d-block d-md-none">
                 <img src="../assets/images/c1.png" class="d-none d-md-block">
                 <div class="shop-btn position-absolute top-50 start-50 translate-middle">
-                  <h2>Whole cakes</h2>
+                  <h3>Whole cakes</h3>
                 </div>
             </div>
             <div class="col-12 col-md-6 other-collections d-flex flex-column">
               <div class="collection pb-3 pb-md-0 position-relative">
                 <img src="../assets/images/c2.png">
                 <div class="shop-btn position-absolute top-50 start-50 translate-middle">
-                  <h2>Bento cakes</h2>
+                  <h3>Bento cakes</h3>
                 </div>
               </div>
               <div class="collection mt-auto position-relative">
                 <img src="../assets/images/c3.png">
                 <div class="shop-btn position-absolute top-50 start-50 translate-middle">
-                  <h2>Cupcakes</h2>
+                  <h3>Cupcakes</h3>
                 </div>
               </div>
             </div>
@@ -462,16 +462,8 @@ h1, h2, h3, h4, h5{
 }
 
 .shop-btn{
-  /* width:150px; */
-  /* height:150px; */
-  /* padding:10px 15px; */
-  /* border-radius:10px; */
-  /* background-color:white; */
   color:white;
   text-shadow: 0px 0px 20px black;
-  /* display:flex; */
-  /* align-items:center; */
-  /* justify-content: center; */
 }
 
 .one-testimonial{
@@ -551,6 +543,7 @@ h1, h2, h3, h4, h5{
 .shop-btn{
   opacity:0;
   transition: all 0.1s ease-in;
+  text-shadow: 0px 0px 15px rgba(0,0,0,0.7);
 }
 
 .collection:hover .shop-btn{
