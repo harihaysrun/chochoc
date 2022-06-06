@@ -216,7 +216,7 @@ nav{
   z-index:2;
 }
 
-nav a{
+nav a, button{
   color:white;
 }
 

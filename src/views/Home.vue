@@ -159,7 +159,7 @@
       <div class="container">
         <div class="testimonials-box py-3 py-lg-5">
           <div class="d-flex justify-content-between align-items-center">
-            <h2>See What Our Customers Say</h2>
+            <h2>See What Our <br class="d-block d-md-none">Customers Say</h2>
 
             <div class="arrows">
               <img @click="prevSlide(1)" class="me-3" style="transform:rotate(180deg)" src="../assets/images/arrow.png">
@@ -422,13 +422,14 @@ h1, h2, h3, h4, h5{
   width:100%;
   height:100%;
   border-top:20vw solid #FFF9EC;
-  border-bottom:5vw solid black;
+  border-bottom:15vw solid black;
   z-index:-2;
 }
 
 .bestsellers-container{
   white-space: nowrap;
   overflow-x:scroll;
+  scroll-snap-type: x mandatory;
 }
 
 .bestsellers-container::-webkit-scrollbar { 
@@ -437,6 +438,7 @@ h1, h2, h3, h4, h5{
 
 .bestsellers-container div{
   display:inline-block;
+  scroll-snap-align: start;
 }
 
 .bestsellers-container img, .collections img{
