@@ -123,8 +123,8 @@
 
         <div class="collections py-5">
           <div class="main-text text-center">
-            <h2>Our Collections</h2>
-            <p>Be it for a party, self-celebration or bite-sized convenience to have on-the-go, we have a cake for every ocassion. Browse our collections now.</p>
+            <h2>Our Collection</h2>
+            <p>Be it for a party, self-celebration or bite-sized convenience to have on-the-go, we have a cake for every occasion. Browse our collection now.</p>
           </div>
 
           <div class="collections-box row d-flex flex-column flex-md-row pt-3 pt-md-5">
