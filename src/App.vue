@@ -216,8 +216,12 @@ nav{
   z-index:2;
 }
 
-nav a, button{
+nav a{
   color:white;
+}
+
+button{
+  color:black;
 }
 
 .logo{
