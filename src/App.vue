@@ -2,7 +2,9 @@
   <div>
 
     <div id="content">
-      <marquee class="freeshipping">🚚 Free delivery for orders above SGD50 🎂</marquee>
+      <div class="freeshipping">
+        <div>🚚 Free delivery for orders above SGD50 🎂</div>
+      </div>
       <nav>
         <div class="container">
           <div class="d-flex d-md-none">
@@ -192,6 +194,17 @@ a:hover{
   z-index:2; 
 }
 
+.freeshipping div{
+  transform:translateX(100%);
+  animation: marquee 10s linear infinite;
+  white-space:nowrap;
+}
+
+@keyframes marquee{
+  from{transform:translateX(100%);}
+  to{transform:translateX(-120%);}
+}
+
 nav{
   background-color:transparent;
   padding:10px 0;
@@ -296,6 +309,12 @@ footer .links img{
 }
 
 @media only screen and (min-width:768px){
+
+  .freeshipping div{
+    animation: none;
+    transform:translateX(0);
+  }
+
   nav{
     padding:15px 0;
   }

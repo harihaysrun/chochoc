@@ -476,6 +476,10 @@ h1, h2, h3, h4, h5{
 
 @media only screen and (min-width:768px){
 
+.container{
+  padding: 0;
+}
+
 .header{
   top:75%;
 }
