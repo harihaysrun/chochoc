@@ -74,46 +74,47 @@
         <div class="bestsellers pt-5 pb-3 pb-lg-5">
           <div class="d-flex justify-content-between align-items-center">
             <h2>Bestsellers</h2>
-            <img class="arrows" src="../assets/images/arrows.png">
+
+            <div class="arrows">
+              <img @click="prevSlide(0)" class="me-3" style="transform:rotate(180deg)" src="../assets/images/arrow.png">
+              <img @click="nextSlide(0)" src="../assets/images/arrow.png">
+            </div>
+
           </div>
           <div class="bestsellers-container pt-3">
-            <div class="col-11 col-md-6 col-lg-4 pe-3">
+            <div class="col-12 col-md-6 col-lg-4 p-2 p-md-0 pe-md-3">
               <div class="d-flex flex-column">
                 <img src="../assets/images/1.png">
-                <div class="text pt-2">
-                  Lovers in Paris
-                  <br>
-                  $55
+                <div class="text d-flex justify-content-between pt-2">
+                  <div class="d-flex flex-column justify-content-between">Lovers in Paris<span>$55</span></div>
+                  <div class="atc-btn"><img src="../assets/images/cart.png"></div>
                 </div>
               </div>
             </div>
-            <div class="col-11 col-md-6 col-lg-4 pe-3">
+            <div class="col-12 col-md-6 col-lg-4 p-2 p-md-0 pe-md-3">
               <div class="d-flex flex-column">
                 <img src="../assets/images/2.png">
-                <div class="text pt-2">
-                  Lovers in Paris
-                  <br>
-                  $55
+                <div class="text d-flex justify-content-between pt-2">
+                  <div class="d-flex flex-column justify-content-between">Love You Berry Much<span>$50</span></div>
+                  <div class="atc-btn"><img src="../assets/images/cart.png"></div>
                 </div>
               </div>
             </div>
-            <div class="col-11 col-md-6 col-lg-4 pe-3">
+            <div class="col-12 col-md-6 col-lg-4 p-2 p-md-0 pe-md-1">
               <div class="d-flex flex-column">
                 <img src="../assets/images/3.png">
-                <div class="text pt-2">
-                  Lovers in Paris
-                  <br>
-                  $55
+                <div class="text d-flex justify-content-between pt-2">
+                  <div class="d-flex flex-column justify-content-between">We're Mint To Be<span>$7</span></div>
+                  <div class="atc-btn"><img src="../assets/images/cart.png"></div>
                 </div>
               </div>
             </div>
-            <div class="col-11 col-md-6 col-lg-4 pe-3">
+            <div class="col-12 col-md-6 col-lg-4 p-2 p-md-0 ps-md-2">
               <div class="d-flex flex-column">
                 <img src="../assets/images/4.png">
-                <div class="text pt-2">
-                  Lovers in Paris
-                  <br>
-                  $55
+                <div class="text d-flex justify-content-between pt-2">
+                  <div class="d-flex flex-column justify-content-between">Bentoven<span>$15</span></div>
+                  <div class="atc-btn"><img src="../assets/images/cart.png"></div>
                 </div>
               </div>
             </div>
@@ -159,10 +160,15 @@
         <div class="testimonials-box py-3 py-lg-5">
           <div class="d-flex justify-content-between align-items-center">
             <h2>See What Our Customers Say</h2>
-            <img class="arrows" src="../assets/images/arrows.png">
+
+            <div class="arrows">
+              <img @click="prevSlide(1)" class="me-3" style="transform:rotate(180deg)" src="../assets/images/arrow.png">
+              <img @click="nextSlide(1)" src="../assets/images/arrow.png">
+            </div>
+            
           </div>
           <div class="bestsellers-container pt-4">
-            <div class="col-11 col-md-6 col-lg-4 pe-3">
+            <div class="col-12 col-md-6 col-lg-4 pe-3">
               <div class="text-wrap one-testimonial">
                 Cras quis ipsum et urna gravida aliquam. Nullam nec magna magna. Vestibulum tincidunt tortor nec odio venenatis luctus. Etiam porta, tellus id consequat pretium, mauris ante feugiat orci, at volutpat risus magna id ipsum. Nullam posuere efficitur sapien, in eleifend dui dapibus ac!
                 <div class="pt-3 d-flex flex-row align-items-center">
@@ -171,7 +177,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-11 col-md-6 col-lg-4 pe-3">
+            <div class="col-12 col-md-6 col-lg-4 pe-3">
               <div class="text-wrap one-testimonial">
                 Cras quis ipsum et urna gravida aliquam. Nullam nec magna magna. Vestibulum tincidunt tortor nec odio venenatis luctus. Etiam porta, tellus id consequat pretium, mauris ante feugiat orci, at volutpat risus magna id ipsum. Nullam posuere efficitur sapien, in eleifend dui dapibus ac!
                 <div class="pt-3 d-flex flex-row align-items-center">
@@ -180,7 +186,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-11 col-md-6 col-lg-4 pe-3">
+            <div class="col-12 col-md-6 col-lg-4 pe-3">
               <div class="text-wrap one-testimonial">
                 Cras quis ipsum et urna gravida aliquam. Nullam nec magna magna. Vestibulum tincidunt tortor nec odio venenatis luctus. Etiam porta, tellus id consequat pretium, mauris ante feugiat orci, at volutpat risus magna id ipsum. Nullam posuere efficitur sapien, in eleifend dui dapibus ac!
                 <div class="pt-3 d-flex flex-row align-items-center">
@@ -189,7 +195,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-11 col-md-6 col-lg-4 pe-3">
+            <div class="col-12 col-md-6 col-lg-4 pe-3">
               <div class="text-wrap one-testimonial">
                 Cras quis ipsum et urna gravida aliquam. Nullam nec magna magna. Vestibulum tincidunt tortor nec odio venenatis luctus. Etiam porta, tellus id consequat pretium, mauris ante feugiat orci, at volutpat risus magna id ipsum. Nullam posuere efficitur sapien, in eleifend dui dapibus ac!
                 <div class="pt-3 d-flex flex-row align-items-center">
@@ -231,11 +237,14 @@
 
       </div>
     </div>
+
+
   
   </div>
 </template>
 
 <script>
+
 export default {
   name: 'LandingPage',
   data:function(){
@@ -260,6 +269,18 @@ export default {
       this.pointOne = false;
       this.pointTwo = false;
       this.pointThree = true;
+    },
+    nextSlide: function(index){
+      const bestsellerCarousel = document.getElementsByClassName("bestsellers-container")[index];
+      const moveBy = bestsellerCarousel.getBoundingClientRect().width;
+      bestsellerCarousel.style.scrollBehavior = 'smooth';
+      bestsellerCarousel.scrollLeft += moveBy;
+    },
+    prevSlide: function(index){
+      const bestsellerCarousel = document.getElementsByClassName("bestsellers-container")[index];
+      const moveBy = bestsellerCarousel.getBoundingClientRect().width;
+      bestsellerCarousel.style.scrollBehavior = 'smooth';
+      bestsellerCarousel.scrollLeft -= moveBy;
     }
   }
 }
@@ -401,8 +422,8 @@ h1, h2, h3, h4, h5{
   width:100%;
   height:100%;
   border-top:20vw solid #FFF9EC;
-  border-bottom:20vw solid black;
-  z-index:-1;
+  border-bottom:5vw solid black;
+  z-index:-2;
 }
 
 .bestsellers-container{
@@ -420,6 +441,22 @@ h1, h2, h3, h4, h5{
 
 .bestsellers-container img, .collections img{
   width:100%;
+}
+
+.bestsellers-container div:hover{
+  cursor: pointer;
+}
+
+.testimonials-box .bestsellers-container div:hover{
+  cursor:auto;
+}
+
+.atc-btn img{
+  width:50px !important;
+}
+
+.atc-btn img:hover{
+  opacity:0.9;
 }
 
 .shop-btn{
@@ -462,7 +499,7 @@ h1, h2, h3, h4, h5{
   color:white;
 }
 
-.arrows{
+.arrows img{
   height:20px;
   width:auto;
 }
@@ -524,6 +561,15 @@ h1{
 }
 
 @media only screen and (min-width:1200px){
+
+.atc-btn{
+  opacity:0;
+  transition:all 0.1s linear;
+}
+
+.bestsellers-container div:hover .atc-btn{
+  opacity:1;
+}
 
 .header{
   top:80%;
