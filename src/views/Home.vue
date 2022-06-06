@@ -2,7 +2,7 @@
   <div>
     
     <div class="hero-banner position-relative">
-      <img class="d-block d-md-none" src="../assets/images/banner-mobile2.png">
+      <img class="d-block d-md-none" src="../assets/images/banner-mobile.png">
       <img class="d-none d-md-block" src="../assets/images/banner.png">
       <div class="position-absolute header">
         <div class="container">
