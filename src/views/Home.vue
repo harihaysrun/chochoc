@@ -68,10 +68,10 @@
       </div>
     </div>
 
-    <div class="bestsellers-collections py-5">
+    <div class="bestsellers-collections py-lg-5">
       <div class="container">
 
-        <div class="bestsellers py-5">
+        <div class="bestsellers pt-5 pb-3 pb-lg-5">
           <div class="d-flex justify-content-between align-items-center">
             <h2>Bestsellers</h2>
             <img class="arrows" src="../assets/images/arrows.png">
@@ -121,7 +121,6 @@
         </div>
 
         <div class="collections py-5">
-
           <div class="main-text text-center">
             <h2>Our Collections</h2>
             <p>Be it for a party, self-celebration or bite-sized convenience to have on-the-go, we have a cake for every ocassion. Browse our collections now.</p>
@@ -157,7 +156,7 @@
 
     <div class="testimonials py-5">
       <div class="container">
-        <div class="testimonials-box py-5">
+        <div class="testimonials-box py-3 py-lg-5">
           <div class="d-flex justify-content-between align-items-center">
             <h2>See What Our Customers Say</h2>
             <img class="arrows" src="../assets/images/arrows.png">
@@ -204,7 +203,7 @@
       </div>
     </div>
 
-    <div class="bestsellers-collections ig-feed py-5">
+    <div class="bestsellers-collections ig-feed py-lg-5">
       <div class="container">
 
         <div class="bestsellers py-5">
@@ -268,6 +267,10 @@ export default {
 
 <style scoped>
 
+.container{
+  padding: 0 20px;
+}
+
 .hero-banner{
   margin-top:-65px;
   pointer-events:none;
@@ -329,7 +332,8 @@ h1, h2, h3, h4, h5{
 
 .main-points{
   background-color:#FFF9EC;
-  padding-top: 130px;
+  /* padding-top: 130px; */
+  padding-top: 170px;
   padding-bottom:50px;
   /* color:black; */
 }
@@ -461,6 +465,13 @@ h1, h2, h3, h4, h5{
 .arrows{
   height:20px;
   width:auto;
+}
+
+@media only screen and (min-width:480px){
+  .main-points{
+    background-color:#FFF9EC;
+    padding-top: 130px;
+  }
 }
 
 @media only screen and (min-width:768px){
