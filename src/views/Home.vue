@@ -8,7 +8,7 @@
         <div class="container">
           <div class="inner-container">
             <h1>We bake deliciously<br>healthy chocolate cakes</h1>
-            <p class="m-0" >A boutique confectionary bringing healthy options for everyone to enjoy some chocolatey goodness.</p>
+            <p class="m-0" >A boutique confectionary that provides healthy options <br class="d-none d-lg-block">so everyone can enjoy some chocolatey goodness.</p>
           </div>
         </div>
       </div>
