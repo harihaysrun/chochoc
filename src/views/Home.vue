@@ -302,7 +302,6 @@ export default {
   width:100%;
   position:relative;
   z-index:0;
-  border-radius: 0 0 50px 0;
 }
 
 .header{
@@ -511,6 +510,12 @@ h1, h2, h3, h4, h5{
   .main-points{
     background-color:#FFF9EC;
     padding-top: 130px;
+  }
+}
+
+@media only screen and (min-width:575px){
+  .hero-banner img{
+    border-radius: 0 0 50px 0;
   }
 }
 
