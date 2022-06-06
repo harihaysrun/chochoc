@@ -217,7 +217,7 @@
             <div class="col-12 col-lg-4 order-0 order-lg-1 ps-lg-4">
               <h2>#chochocsg</h2>
               Share your photos on Instagram with the hashtag #chochocsg to be featured on our website! We love to see you enjoy our cakes!
-              <button class="ig-btn d-none d-lg-block mt-3">View all posts</button>
+              <button class="ig-btn d-none d-lg-block mt-3"><i class="bi bi-instagram me-2"></i> View all posts</button>
             </div>
             <div class="col-12 col-lg-8 py-4 p-lg-0">
               <img class="col-6 col-md-3 p-1" src="../assets/images/ig-photo.png">
@@ -230,7 +230,7 @@
               <img class="col-6 col-md-3 p-1" src="../assets/images/ig-photo.png">
             </div>
             <div class="col-12 d-block d-lg-none">
-              <button class="ig-btn">View all posts</button>
+              <button class="ig-btn"><i class="bi bi-instagram me-2"></i> View all posts</button>
             </div>
           </div>
         </div>
@@ -330,8 +330,8 @@ export default {
   position:absolute;
   top:0;
   left:0;
-  left:-50%;
-  width:50%;
+  left:-100%;
+  width:100%;
   height:100%;
   background-color:white;
   /* z-index:-1; */
@@ -420,8 +420,8 @@ h1, h2, h3, h4, h5{
   left:0;
   width:100%;
   height:100%;
-  border-top:20vw solid #FFF9EC;
-  border-bottom:15vw solid black;
+  border-top:100px solid #FFF9EC;
+  border-bottom:100px solid black;
   z-index:-2;
 }
 

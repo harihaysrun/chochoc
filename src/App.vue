@@ -2,9 +2,11 @@
   <div>
 
     <div id="content">
+
       <div class="freeshipping">
         <div>🚚 Free delivery for orders above SGD50 🎂</div>
       </div>
+
       <nav>
         <div class="container">
           <div class="d-flex d-md-none">
@@ -12,18 +14,18 @@
               <i class="bi bi-list" v-if="!showHmMenu"></i>
               <i class="bi bi-x-lg" v-else></i>
             </div>
-            <router-link to="/" class="logo m-auto">
+            <a class="logo m-auto d-flex align-items-center">
               <img class="logo" src="./assets/images/logo.png">
-            </router-link>
+            </a>
           </div>
           <div class="d-none d-md-flex flex-row align-items-center">
-            <router-link to="/" class="logo me-5">
+            <a class="logo me-5">
               <img class="logo" src="./assets/images/logo.png">
-            </router-link>
+            </a>
             <div>
-              <router-link to="/about" class="pe-4" href="">About</router-link>
+              <a class="pe-4" href="">About</a>
               <a class="pe-4" href="">Catalog</a>
-              <router-link to="/contact" class="pe-4" href="">Contact</router-link>
+              <a class="pe-4" href="">Contact</a>
             </div>
             <div class="ms-auto">
               <i class="bi bi-person ps-4"></i>
@@ -40,7 +42,7 @@
     <Transition>
       <div id="hamburger-menu" v-if="showHmMenu">
         <div class="first-three d-flex flex-column">
-          <router-link to="/about" class="pb-3">About</router-link>
+          <a class="pb-3">About</a>
           <div class="pb-3">
             <div class="d-flex" @click="openCatalog">
               Catalog
@@ -55,21 +57,7 @@
             </div>
             </Transition>
           </div>
-          <!-- <div class="accordion-item pb-3">
-            <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Accordion Item #2
-              </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-              <div class="accordion-body d-flex flex-column">
-                <a href="">Whole Cakes</a>
-                <a href="">Bento Cakes</a>
-                <a href="">Bento Cakes</a>
-              </div>
-            </div>
-          </div> -->
-          <router-link to="/contact">Contact</router-link>
+          <a>Contact</a>
         </div>
         <div class="next-two">
           <div class="pb-3"><i class="bi bi-person pe-2"></i> Sign In</div>
@@ -115,22 +103,6 @@
 
 export default {
   name: 'App',
-  // components: {
-  //   HelloWorld
-  // }
-  // mounted(){
-  //   window.addEventListener('resize', function(){
-  //     // if(this.showHmMenu){
-  //       if(window.innerWidth >= 768){
-  //         this.showHmMenu = false;
-  //         document.getElementById("content").style.transform = "translateX(0)";
-  //       } 
-  //       // else{
-  //         // document.getElementById("content").style.transform = "translateX(0vw)";
-  //       // }
-  //     // }
-  //   })
-  // },
   data:function(){
     return{
       'showHmMenu': false,
@@ -206,14 +178,12 @@ a:hover{
 }
 
 nav{
-  background-color:transparent;
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0));
   padding:10px 0;
   position:relative;
-  /* top:0; */
-  /* position:absolute; */
-  /* width:100%; */
   color:white;
   z-index:2;
+  font-size:30px;
 }
 
 nav a{
@@ -225,7 +195,7 @@ button{
 }
 
 .logo{
-  width:75px;
+  width:100px;
 }
 
 #hamburger-menu {
@@ -237,7 +207,7 @@ button{
 }
 
 #content{
-  transition:all 0.2s ease-in;
+  transition:all 0.2s ease-in-out;
 }
 
 .first-three{
@@ -257,12 +227,12 @@ button{
 
 .v-enter-active,
 .v-leave-active {
-  transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in-out;
 }
 
 .v-enter-from,
 .v-leave-to {
-  transform:translateX(-100%);
+  transform:translateX(-75vw);
 }
 
 .catalog-enter-active,
@@ -321,6 +291,7 @@ footer .links img{
 
   nav{
     padding:15px 0;
+    font-size:16px;
   }
 
   #hamburger-menu {
