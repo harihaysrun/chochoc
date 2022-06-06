@@ -546,6 +546,10 @@ h1, h2, h3, h4, h5{
   text-shadow: 0px 0px 15px rgba(0,0,0,0.7);
 }
 
+.collection{
+  cursor:pointer;
+}
+
 .collection:hover .shop-btn{
   opacity:1;
 }
