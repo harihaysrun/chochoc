@@ -167,38 +167,38 @@
             </div>
             
           </div>
-          <div class="bestsellers-container pt-4">
+          <div class="bestsellers-container pt-4 d-flex h-100">
             <div class="one-box col-12 col-md-6 col-lg-4 pe-3">
-              <div class="text-wrap one-testimonial">
+              <div class="text-wrap one-testimonial h-100 d-flex flex-column justify-content-between">
                 Cras quis ipsum et urna gravida aliquam. Nullam nec magna magna. Vestibulum tincidunt tortor nec odio venenatis luctus. Etiam porta, tellus id consequat pretium, mauris ante feugiat orci, at volutpat risus magna id ipsum. Nullam posuere efficitur sapien, in eleifend dui dapibus ac!
-                <div class="pt-3 d-flex flex-row align-items-center">
+                <div class="pt-3 d-flex flex-row align-items-center mt-auto">
                   <img class="me-2" src="../assets/images/testi.png">
                   <span>Naimah</span>
                 </div>
               </div>
             </div>
             <div class="one-box col-12 col-md-6 col-lg-4 pe-3">
-              <div class="text-wrap one-testimonial">
-                Cras quis ipsum et urna gravida aliquam. Nullam nec magna magna. Vestibulum tincidunt tortor nec odio venenatis luctus. Etiam porta, tellus id consequat pretium, mauris ante feugiat orci, at volutpat risus magna id ipsum. Nullam posuere efficitur sapien, in eleifend dui dapibus ac!
-                <div class="pt-3 d-flex flex-row align-items-center">
+              <div class="text-wrap one-testimonial h-100 d-flex flex-column justify-content-between">
+              Donec faucibus risus quam, vitae dictum eros rutrum eget. Integer fermentum lobortis eros nec consectetur. Aenean pellentesque eleifend risus, in sagittis metus.
+                <div class="pt-3 d-flex flex-row align-items-center mt-auto">
                   <img class="me-2" src="../assets/images/testi.png">
                   <span>Naimah</span>
                 </div>
               </div>
             </div>
             <div class="one-box col-12 col-md-6 col-lg-4 pe-3">
-              <div class="text-wrap one-testimonial">
-                Cras quis ipsum et urna gravida aliquam. Nullam nec magna magna. Vestibulum tincidunt tortor nec odio venenatis luctus. Etiam porta, tellus id consequat pretium, mauris ante feugiat orci, at volutpat risus magna id ipsum. Nullam posuere efficitur sapien, in eleifend dui dapibus ac!
-                <div class="pt-3 d-flex flex-row align-items-center">
+              <div class="text-wrap one-testimonial h-100 d-flex flex-column justify-content-between">
+                Suspendisse potenti. Proin lobortis in tortor vitae commodo. Etiam auctor blandit nunc, at convallis massa tincidunt vel. Nam vehicula tristique tellus vel semper. Phasellus finibus semper ligula nec tempus. Donec varius ornare orci. Nunc blandit fringilla interdum.
+                <div class="pt-3 d-flex flex-row align-items-center mt-auto">
                   <img class="me-2" src="../assets/images/testi.png">
                   <span>Naimah</span>
                 </div>
               </div>
             </div>
             <div class="one-box col-12 col-md-6 col-lg-4 pe-3">
-              <div class="text-wrap one-testimonial">
-                Cras quis ipsum et urna gravida aliquam. Nullam nec magna magna. Vestibulum tincidunt tortor nec odio venenatis luctus. Etiam porta, tellus id consequat pretium, mauris ante feugiat orci, at volutpat risus magna id ipsum. Nullam posuere efficitur sapien, in eleifend dui dapibus ac!
-                <div class="pt-3 d-flex flex-row align-items-center">
+              <div class="text-wrap one-testimonial h-100 d-flex flex-column justify-content-between">
+                Pellentesque fringilla egestas nunc, eu accumsan ex sodales sed. Cras consectetur vulputate erat nec interdum. Quisque porttitor, nisl et fringilla dapibus, sapien risus congue neque, quis tincidunt tellus lorem eu nulla.
+                <div class="pt-3 d-flex flex-row align-items-center mt-auto">
                   <img class="me-2" src="../assets/images/testi.png">
                   <span>Naimah</span>
                 </div>
@@ -430,10 +430,11 @@ h1, h2, h3, h4, h5{
   white-space: nowrap;
   overflow-x:scroll;
   scroll-snap-type: x mandatory;
+  scrollbar-width: none;
 }
 
-.bestsellers-container::-webkit-scrollbar { 
-    display: none;
+.bestsellers-container::-webkit-scrollbar{ 
+    display: none !important;
 }
 
 .one-box{
