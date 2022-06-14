@@ -90,7 +90,7 @@
           <div class=" ms-md-auto order-0 order-md-1">
             <img src="./assets/images/payment-methods.png">
           </div>
-          <div class=" me-md-auto pt-3 pt-md-0">© CHOCHOC 2022</div>
+          <div class=" me-md-auto pt-3 pt-md-0"><a href="https://github.com/harihaysrun" target="_blank"><i class="bi bi-github me-1"></i> HARIHAYSRUN 2022</a></div>
         </div>
       </div>
     </footer>
